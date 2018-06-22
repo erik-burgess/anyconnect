@@ -1,8 +1,8 @@
 # GSA Cisco AnyConnect
 
-Copy the below text to /opt/cisco/anyconnect/profile/gsa_cp-gfeotp.xml
+To create a permanent entry for the VPN, copy the below text to /opt/cisco/anyconnect/profile/gsa_cp-gfeotp.xml
 
-
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
 	<ClientInitialization>
@@ -60,3 +60,4 @@ Copy the below text to /opt/cisco/anyconnect/profile/gsa_cp-gfeotp.xml
 		</HostEntry>
 	</ServerList>
 </AnyConnectProfile>
+```
