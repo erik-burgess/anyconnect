@@ -1,4 +1,4 @@
-# GSA Cisco AnyConnect
+# GSA Cisco AnyConnect Config
 
 To create a permanent entry for the VPN, copy the below text to /opt/cisco/anyconnect/profile/gsa_cp-gfeotp.xml
 
